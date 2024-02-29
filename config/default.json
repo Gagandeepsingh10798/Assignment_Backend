@@ -1,0 +1,49 @@
+{
+	"PORT": 9072,
+	"JWT_OPTIONS": {
+		"EXPIRES_IN": {
+			"TOKEN": 9000,
+			"REFRESH_TOKEN": "1d"
+		}
+	},
+	"PATHS": {
+		"IMAGE": {
+			"ACTUAL": "/uploads/images/",
+			"STATIC": "/image/"
+		},
+		"FILE": {
+			"ACTUAL": "/uploads/files",
+			"STATIC": "/document/"
+		}
+	},
+	"OTP_OPTIONS": {
+		"EXPIRES": 1,
+		"IN": "minutes"
+	},
+	"SUPER_ADMIN": {
+		"name": "superAdmin",
+		"gender": "MALE",
+		"phone": [
+			{
+				"phoneType": "home",
+				"phone": "8146529337"
+			}
+		],
+		"type": [
+			"SUPER_ADMIN"
+		]
+	},
+	"USER_TYPES": {
+		"SUPER_ADMIN": "SUPER_ADMIN",
+		"ADMIN": "ADMIN"
+	},
+	
+	"OTP_TYPES": {
+		"FORGOT": "FORGOT"
+	},
+	"DOCUMENT_TYPES": [
+		"resume",
+		"doc"
+	],
+	"maxLoginsAllowed": 2
+}
