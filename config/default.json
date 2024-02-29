@@ -1,8 +1,8 @@
 {
-	"PORT": 9072,
+	"PORT": 9073,
 	"JWT_OPTIONS": {
 		"EXPIRES_IN": {
-			"TOKEN": 9000,
+			"TOKEN": 900000,
 			"REFRESH_TOKEN": "1d"
 		}
 	},
