@@ -71,7 +71,7 @@ app.use(async (req, res, next) => {
     next();
 });
 
-app.use('/download/documents/:path', async (req, res, next) => {
+app.use('/api/v1/download/documents/:path', async (req, res, next) => {
     try {
         const key = req.params.path;
         const fileData = await universal.downloadFileFromS3('documents/'+key);
